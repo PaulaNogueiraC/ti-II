@@ -1,0 +1,27 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Conexão Solidária Belo Horizonte (CSBH)
+authors:
+  - family-names: Pereira de Mesquita Faria
+    given-names: Filipi
+  - family-names: Thurow Buzzi
+    given-names: Julio Cesar
+  - family-names: Godoi Grilo
+    given-names: Davi
+  - family-names: de Nogueira Castro Carvalho
+    given-names: Paula
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Mara Freitas Diniz
+    given-names: Luciana
+keywords:
+  - Projetos Sociais
+  - Voluntários
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti2-2024-2-16-csbh-2
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-11-27

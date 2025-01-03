@@ -1,0 +1,125 @@
+/* faceId.css */
+body {
+    background-color:  whitesmoke !important;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.page {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f1f1;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os campos do formulário */
+label {
+    display: block;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"], #fileInput {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.camera-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
+}
+
+#video {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 100%;
+    background-color: #000;
+}
+
+#captureButton {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#captureButton:hover {
+    background-color: #218838;
+}
+
+.output {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.output img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#erro p{
+    color: red;
+}
